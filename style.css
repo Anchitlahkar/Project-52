@@ -1,0 +1,141 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.paragraph {
+    font-size: x-large;
+    border: solid;
+    color: blue;
+    /* margin-left: 30px; */
+    padding-left: 30px;
+}
+
+a:link {
+    color: purple;
+}
+
+a:visited {
+    color: #ff5233;
+}
+
+.navigationbar p {
+    /* color: #00b6b6; */
+    border: solid;
+    text-align: right;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    margin: auto;
+    background-color: yellow;
+}
+
+h3{
+    text-align: center;
+    color: rgb(253, 6, 97)
+
+    
+}
+.bg{
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    font-size: 80px;
+}
+
+body {
+    background-color: #070707
+}
+
+.Grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.item {
+    /* border: solid; */
+    position: relative;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    opacity: 0;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#sameBg{
+    background-color: #f3f2f2;
+}
+
+button {
+    margin-left:120px;
+    background-color: rgb(43, 255, 0);
+    border: none;
+    color: rgb(17, 0, 255);;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.50;
+}
+
+.item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    opacity: 0;
+}
